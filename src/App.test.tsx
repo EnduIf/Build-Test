@@ -42,9 +42,3 @@ test('renders learn react link02', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-
-test('fails', () => {
-  render(<App />);
-  expect(true).toBeFalsy();
-});
