@@ -9,6 +9,6 @@ RUN npm install
 COPY . .
  
 EXPOSE 8083
- 
-CMD [ "npm", "run", "build" ]
+
 CMD [ "npm", "run", "test"]
+CMD [ "npm", "run", "build" ]
